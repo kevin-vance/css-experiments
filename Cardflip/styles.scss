@@ -1,0 +1,23 @@
+.card-container {
+  perspective: 700;
+}
+
+.card {
+  color: #fff;
+  text-align: center;
+  line-height: 200px;
+  width: 200px;
+  height: 200px;
+  background: #5677fc;
+  margin: 30px;
+  transition: all 0.6s ease;
+  transform-style: preserve-3d;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.card-container {
+  perspective: 700;
+}
